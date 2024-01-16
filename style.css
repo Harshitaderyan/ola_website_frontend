@@ -1,0 +1,346 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    background-color: rgb(22, 24, 26);
+    color: aliceblue;
+}
+
+nav .right{
+    display: flex;
+ 
+}
+nav .left{
+    display: flex;
+ 
+}
+.left img{
+    margin-top: -11px;
+    width: 43%;
+}
+.left p{
+    margin-inline: 22px;
+    margin-top: 21px;
+}
+.right p{
+    margin-inline: 22px;
+    margin-top: 25px;
+}
+.right i{
+    margin-top: 22px;
+    font-size: 22px;
+}
+.right button{
+    width: 100px;
+    height: 36px;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    margin-top: 12px;
+}
+.right button:hover{
+    background-color: transparent;
+ color: white;
+ border: 2px solid white;
+}
+.card{
+    background-image: url(wp2683283.webp);
+   background-size: 1600px;
+   height: 700px;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    background-color: #fff;
+  
+
+}
+.main .icon{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(224, 223, 223);
+    
+}
+.main .icon .car{
+    margin-inline: 74px;
+    margin-top: 11px;
+    border: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.icon .car i{
+    font-size: 123%;
+}
+.card h1{
+    padding: 33px;
+    font-size: 33px;
+}
+.card input{
+    width: 320px;
+    height: 30px;
+   padding: 11px;
+   border: none;
+   margin-left:  33px;
+   background-color: rgb(219, 199, 199);
+   padding: 9px;
+   margin-top: 8px;
+}
+.card .btn{
+    margin-left: 33px;
+    margin-top: 44px;
+}
+
+
+.card .btn .fr{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+.card .card h1{
+    padding: 33px;
+    font-size: 33px;
+}
+.card input{
+    width: 320px;
+    height: 30px;
+   padding: 11px;
+   border: none;
+   margin-left:  33px;
+   background-color: rgb(219, 199, 199);
+   padding: 9px;
+   margin-top: 8px;
+}
+.card .btn{
+    margin-left: 33px;
+    margin-top: 44px;
+}
+
+
+.card .btn .fr{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+
+.card .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(200, 184, 184);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+
+
+
+
+.head h1{
+    padding: 33px;
+    font-size: 43px;
+    margin-top: 20px;
+
+}
+.ride .ola{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+
+}
+
+.ola .auto{
+    display: flex;
+    margin-top: 33px;
+  margin-top: 33px;
+
+}
+.ola .auto img{
+    margin-inline: 33px;
+    width: 10%;
+}
+.safe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.app{
+    background-color: rgb(187, 177, 177);
+    margin-top: 10px;
+}
+.app h1{
+    padding: 33px;
+    font-size: 44px;
+}
+.app .down{
+    display: flex;
+    justify-content: center;
+  justify-content: space-around;
+   padding: 35px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 44px;
+    margin-top: 22px;
+}
+.postpaid-grid {
+    display: grid;
+    grid-template-areas:
+        'a b'
+        'a c';
+    grid-template-columns: 55% 50% 50%;
+    gap: 24px 48px;
+    max-width: calc(100% - 48px);
+    padding-bottom: 106px;
+}
+.postpaid-item-a {
+    grid-area: a;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-top: 30px;
+    margin-left: 19px;
+
+}
+.postpaid-item-b {
+    grid-area: b;
+    margin: 10px;
+}
+.align-baseline {
+    align-items: baseline;
+}
+.flex {
+    display: flex;
+}
+.font-24 {
+    font-size: 20px;
+}
+.pp-text {
+    margin-right: 8px;
+}
+.text-black {
+    color: #000000;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.lh-28 {
+    line-height: 28px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.green-box-title {
+    color: #16AA51;
+    padding: 8px;
+    background: rgba(22, 170, 81, 0.1);
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+.lh-20 {
+    line-height: 20px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.pp-head-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    color: #0f0f0f;
+    margin-top: 12px;
+    max-width: 300px;
+}
+.ppp-head-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 19px;
+    max-width: 300px;
+}
+.postpaid-item-c {
+    grid-area: c;
+    align-self: end;
+    gap: 8px;
+}
+.pp-img-desc {
+    gap: 8px;
+}
+.pp-img-desc {
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    gap: 24px;
+}
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}.pp-img-desc > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.86);
+    max-width: 100px;
+    display: flex;
+}
+.pp-img-desc {
+    gap: 8px;
+}
+.pp-img-desc {
+    flex-direction: column;
+    width: 128px;
+    gap: 24px;
+}
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.pp-img-desc > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.86);
+    max-width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
